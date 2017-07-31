@@ -1,3 +1,6 @@
 [submodule "pure"]
 	path = pure
 	url = https://github.com/PurePelicanTheme/pure.git
+[submodule "pure-single"]
+	path = pure-single
+	url = https://github.com/PurePelicanTheme/pure-single.git

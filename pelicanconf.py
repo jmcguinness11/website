@@ -3,12 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'John McGuinness'
-SITENAME = u"John's Website"
+SITENAME = u"John McGuinness"
 SITEURL = ''
-#SITEURL = 'http://tkherman.github.io'
 
 PATH = 'content'
-THEME = './pure'
+THEME = './pure-single'
 TIMEZONE = 'America/Indiana/Indianapolis'
 
 DEFAULT_LANG = u'en'
@@ -19,6 +18,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+#images
+COVER_IMG_URL = SITEURL + '/images/ND_Stadium.jpg'
+PROFILE_IMG_URL = SITEURL + '/images/linkedin_photo.jpg'
+FAVICON_URL = SITEURL + '/images/mcguinness_large.gif'
+#FAVICON_URL = SITEURL + '/images/jfavicon.png'
 
 
 # Social widget
@@ -32,6 +37,7 @@ MENUITEMS = (('About me', SITEURL + '/pages/about-me.html'),
             ('Posts', SITEURL + '/'))
 
 STATIC_PATHS = ['images']
+
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
