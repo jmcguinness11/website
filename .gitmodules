@@ -7,3 +7,4 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/jmcguinness11/jmcguinness11.github.io
+	ignore = all
